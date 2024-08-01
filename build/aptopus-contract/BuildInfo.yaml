@@ -1,0 +1,55 @@
+---
+compiled_package_info:
+  package_name: aptopus-contract
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptopus: 4dde655d9f485c186888560ba61b226fb041167a5204458ce04ff5df98eeb5b5
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_fungible_asset: 000000000000000000000000000000000000000000000000000000000000000a
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm: "0000000000000000000000000000000000000000000000000000000000000000"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 6B0299A6F8748BA2B44BA5881CA86B5BD93CB2B86F43E21DBD1CF5A20B231655
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    override_std: ~
+    generate_docs: false
+    generate_abis: false
+    generate_move_model: true
+    full_model_generation: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      aptopus: 4dde655d9f485c186888560ba61b226fb041167a5204458ce04ff5df98eeb5b5
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    compiler_config:
+      bytecode_version: ~
+      known_attributes:
+        - bytecode_instruction
+        - deprecated
+        - event
+        - expected_failure
+        - "fmt::skip"
+        - legacy_entry_fun
+        - "lint::allow_unsafe_randomness"
+        - native_interface
+        - randomness
+        - resource_group
+        - resource_group_member
+        - test
+        - test_only
+        - verify_only
+        - view
+      skip_attribute_checks: false
+      compiler_version: ~
+      language_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
